@@ -9,7 +9,7 @@ const ReacipeIndex = ({alphaIndex}) => {
                 index.map(item => {
                     return(
                     <div className="numBox" key={num++} onClick={()=>alphaIndex(item)}>
-                        <h3>{item}</h3>
+                        <span className="numBoxItem">{item}</span>
                     </div>)
                 })
             }

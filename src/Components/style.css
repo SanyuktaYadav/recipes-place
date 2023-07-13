@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   padding: 0;
@@ -48,6 +48,7 @@ body {
   border-radius: 0.2rem;
   background-color: #244d5c;
   padding: 5px;
+  cursor: pointer;
 }
 
 .card img {
@@ -55,7 +56,7 @@ body {
   border-radius: 0.2rem 0.2rem 0 0;
 }
 
-.card h3 {
+.card .meal-item-name {
   color: white;
   font-size: 18px;
 }
@@ -117,4 +118,6 @@ body {
   align-items: center;
   color: white;
   margin: 0 5px 0 5px;
+  cursor: pointer;
+  border: 1px solid white;
 }

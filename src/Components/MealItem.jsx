@@ -9,7 +9,7 @@ const MealItem=({data})=>{
                     return(
                     <div className="card" key={item.idMeal} onClick={()=>navigate(`/${item.idMeal}`)}>
                         <img src={item.strMealThumb} alt="" />
-                        <h3>{item.strMeal}</h3>
+                        <span className="meal-item-name">{item.strMeal}</span>
                     </div>
                     )
                 })
